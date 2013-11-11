@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Pure semantic HTML</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Semantic html5</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">about</a></li>
+					<li><a href="#faq">faq</a></li>
+					<li><a href="#contacts">contacts</a></li>
+					<li><a href="#register">register</a></li>
+					<li><a href="#feedback">feedback</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<article id="about" class="about">	
+			<img src="img/about.jpg" alt="about" />
+			<section>
+				<h2>About</h2>
+				<p>lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</section>
+		</article>
+		<aside id="faq" class="block">
+			<h2>FAQ</h2>
+			<ol>
+				<li><a href="">How it's work?</a></li>
+				<li><a href="">Why it's work?</a></li>
+				<li><a href="">When it's work?</a></li>
+			</ol>
+		</aside>
+		<section id="contacts" class="block">
+			<h2>Contacts</h2>
+			<p>
+				Written by <a href="mailto:example@example.com">Someone</a>
+				Visit us at: <a href="#">Example.com</a>
+				Box 564, Disneyland USA
+			</p>
+		</section>
+		<section id="register" class="block">
+			<h2>Register</h2>
+			<form action="#">
+				<p><label for="email">E-mail:</label><input id="email" type="email" name="user_email" placeholder="type e-mail" /></p>
+				<p><label for="pwd">Password:</label><input id="pwd" type="password" name="user_pwd" placeholder="type password" /></p>
+				<p><label for="respwd">Repeat password:</label><input id="respwd" type="password" name="user_pwd" placeholder="type password again" /></p>
+				<button type="submit">Register!</button>
+			</form>
+		</section>
+		<section id="feedback" class="block">
+			<h2>Feedback</h2>
+			<form action="#">
+				<textarea placeholder="Add your feedback..."></textarea>
+				<p><label for="name">Your name:</label><input type="text" id="name" name="user_name" placeholder="Your name, please" /></p>
+				<button type="submit">Send</button>
+			</form>
+		</section>
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="#about">about</a></li>
+					<li><a href="#faq">faq</a></li>
+					<li><a href="#contacts">contacts</a></li>
+					<li><a href="#register">register</a></li>
+					<li><a href="#feedback">feedback</a></li>
+				</ul>
+			</nav>
+			<small>&copy; Copyright 2058, Example Corporation</small>
+		</footer>
+	</body>
+</html>
